@@ -1,0 +1,275 @@
+﻿ {
+  "client": [
+    {
+      "clientid": "119",
+      "clientname": "Travel Leaders Group",
+      "userName": "tlg",
+      "userId": "Online",
+      "password": "",
+      "email": "kenobi@tavisca.com",
+      "kenobiTenants": [
+        {
+          "kenobiTenantName": "Travel Leaders Group",
+          "kenobiTenantId": "hc89g58hkw",
+          "kenobiApiKey": "",
+          "organisationId": "5",
+          "programId": "1155",
+          "clientProgramGroupId": "440",
+          "ruleGroupId": "2541",
+          "agentId": "TRAVELAPI",
+          "transitCode": "",
+          "participant": "7af531ac-e096-4143-b66f-ead604562a7d",
+          "IsTlg": "true",
+          "ProgramCode": "TravelLeadersAPI",
+          "defaultCulture": "en-us",
+          "defaultCurrency": "USD",
+          "isEnabled": "true",
+          "platformApiKey": "",
+          "platformUserToken": "",
+		      "branch" : "519"
+        }
+      ]
+    },
+    {
+      "clientid": "120",
+      "clientname": "Kaligo",
+      "userName": "Kaligo",
+      "userId": "Online",
+      "password": "Kaligo@123",
+      "email": "kenobi@tavisca.com",
+      "kenobiTenants": [
+        {
+          "kenobiTenantName": "Kaligo",
+          "kenobiTenantId": "hc8mbjncw0",
+          "kenobiApiKey": "",
+          "organisationId": "5",
+          "programId": "1156",
+          "clientProgramGroupId": "442",
+          "ruleGroupId": "2541",
+          "agentId": "TRAVELAPI",
+          "transitCode": "",
+          "participant": "7af531ac-e096-4143-b66f-ead604562a7d",
+          "IsTlg": "true",
+          "ProgramCode": "KaligoAPI",
+          "defaultCulture": "en-us",
+          "defaultCurrency": "USD",
+          "isEnabled": "true",
+          "platformApiKey": "",
+          "platformUserToken": "",
+		      "branch" : "531"
+        }
+      ]
+    },
+    {
+      "clientid": "122",
+      "clientname": "Loyalty Build",
+      "userName": "loyaltybuild",
+      "userId": "Online",
+      "password": "",
+      "email": "kenobi@tavisca.com",
+      "kenobiTenants": [
+        {
+          "kenobiTenantName": "LoyaltyBuild",
+          "kenobiTenantId": "hc91xpi0hs",
+          "kenobiApiKey": "",
+          "organisationId": "5",
+          "programId": "1157",
+          "clientProgramGroupId": "443",
+          "ruleGroupId": "2541",
+          "agentId": "TRAVELAPI",
+          "transitCode": "",
+          "participant": "7af531ac-e096-4143-b66f-ead604562a7d",
+          "IsTlg": "true",
+          "ProgramCode": "LoyaltyBuildAPI",
+          "defaultCulture": "en-us",
+          "defaultCurrency": "USD",
+          "isEnabled": "true",
+          "platformApiKey": "",
+          "platformUserToken": "",
+		      "branch" : "562"
+        }
+      ]
+    },
+	{
+      "clientid": "103",
+      "clientname": "Demo Client 2 - Points.Com",
+      "userName": "Demo Client 2",
+      "userId": "Online",
+      "password": "",
+      "email": "kenobi@tavisca.com",
+      "kenobiTenants": [
+        {
+          "kenobiTenantName": "Demo Client 2 - Points.Com",
+          "kenobiTenantId": "isaud0wq2o",
+          "kenobiApiKey": "",
+          "organisationId": "5",
+          "programId": "1155",
+          "clientProgramGroupId": "440",
+          "ruleGroupId": "2541",
+          "agentId": "TRAVELAPI",
+          "transitCode": "",
+          "participant": "7af531ac-e096-4143-b66f-ead604562a7d",
+          "IsTlg": "true",
+          "ProgramCode": "BaseVariable2.0",
+          "defaultCulture": "en-us",
+          "defaultCurrency": "USD",
+          "isEnabled": "true",
+          "platformApiKey": "",
+          "platformUserToken": "",
+		  "branch" : "711"
+        }
+      ]
+    },
+	{
+	"clientid" : "124",
+	"clientname" : "FarePortal",
+	"userName" : "FarePortal",
+	"userId" : "Online",
+	"password" : "",
+	"email" : "kenobi@tavisca.com",
+	"kenobiTenants" : [
+		{
+			"kenobiTenantName" : "FarePortal",
+			"kenobiTenantId" : "iz7osy6800",
+			"kenobiApiKey" : "",
+			"organisationId" : "5",
+			"programId" : "1159",
+			"clientProgramGroupId" : "444",
+			"ruleGroupId" : "2541",
+			"agentId" : "TRAVELAPI",
+			"transitCode" : "",
+			"participant" : "7af531ac-e096-4143-b66f-ead604562a7d",
+			"IsTlg" : "true",
+			"ProgramCode" : "FarePortalAPI",
+			"defaultCulture" : "en-us",
+			"defaultCurrency" : "USD",
+			"isEnabled" : "true",
+			"platformApiKey" : "",
+			"platformUserToken" : "",
+			"branch" : "519"
+		}
+	  ]
+	},
+	
+	{
+	"clientid" : "125",
+	"clientname" : "HappyBookings",
+	"userName" : "HappyBookings",
+	"userId" : "Online",
+	"password" : "",
+	"email" : "kenobi@tavisca.com",
+	"kenobiTenants" : [
+		{
+			"kenobiTenantName" : "HappyBookings",
+			"kenobiTenantId" : "izr7j3uk1s",
+			"kenobiApiKey" : "",
+			"organisationId" : "5",
+			"programId" : "1160",
+			"clientProgramGroupId" : "445",
+			"ruleGroupId" : "2541",
+			"agentId" : "TRAVELAPI",
+			"transitCode" : "",
+			"participant" : "7af531ac-e096-4143-b66f-ead604562a7d",
+			"IsTlg" : "true",
+			"ProgramCode" : "HappyBookingsAPI",
+			"defaultCulture" : "en-us",
+			"defaultCurrency" : "USD",
+			"isEnabled" : "true",
+			"platformApiKey" : "",
+			"platformUserToken" : "",
+			"branch" : "563"
+		}
+	  ]
+	},
+	{
+	"clientid" : "129",
+	"clientname" : "SaveOn",
+	"userName" : "SaveOn",
+	"userId" : "Online",
+	"password" : "",
+	"email" : "kenobi@tavisca.com",
+	"kenobiTenants" : [
+		{
+			"kenobiTenantName" : "SaveOnResorts",
+			"kenobiTenantId" : "ymde83rwg0",
+			"kenobiApiKey" : "",
+			"organisationId" : "5",
+			"programId" : "1188",
+			"clientProgramGroupId" : "463",
+			"ruleGroupId" : "2541",
+			"agentId" : "TRAVELAPI",
+			"transitCode" : "",
+			"participant" : "7af531ac-e096-4143-b66f-ead604562a7d",
+			"IsTlg" : "true",
+			"ProgramCode" : "SaveOnAPI",
+			"defaultCulture" : "en-us",
+			"defaultCurrency" : "USD",
+			"isEnabled" : "true",
+			"platformApiKey" : "",
+			"platformUserToken" : "",
+			"branch" : "515"
+		}
+	  ]
+	},
+	{
+	"clientid" : "118",
+	"clientname" : "Zumata",
+	"userName" : "Zumata Hotel CAPI",
+	"userId" : "Online",
+	"password" : "",
+	"email" : "kenobi@tavisca.com",
+	"kenobiTenants" : [
+		{
+			"kenobiTenantName" : "Zumata",
+			"kenobiTenantId" : "10yciwopog0",
+			"kenobiApiKey" : "",
+			"organisationId" : "5",
+			"programId" : "1154",
+			"clientProgramGroupId" : "439",
+			"ruleGroupId" : "2541",
+			"agentId" : "TRAVELAPI",
+			"transitCode" : "",
+			"participant" : "7af531ac-e096-4143-b66f-ead604562a7d",
+			"IsTlg" : "true",
+			"ProgramCode" : "ZumataHotelAPI",
+			"defaultCulture" : "en-us",
+			"defaultCurrency" : "USD",
+			"isEnabled" : "true",
+			"platformApiKey" : "",
+			"platformUserToken" : "",
+			"branch" : "510"
+		}
+	  ]
+	},
+	{
+      "clientid": "128",
+      "clientname": "Rate Audit Tool",
+      "userName": "Rate Audit Tool",
+      "userId": "Online",
+      "password": "",
+      "email": "kenobi@tavisca.com",
+      "kenobiTenants": [
+        {
+          "kenobiTenantName": "Rate Audit Tool",
+          "kenobiTenantId": "145taz14bgg",
+          "kenobiApiKey": "",
+          "organisationId": "5",
+          "programId": "1187",
+          "clientProgramGroupId": "464",
+          "ruleGroupId": "2541",
+          "agentId": "TRAVELAPI",
+          "transitCode": "",
+          "participant": "7af531ac-e096-4143-b66f-ead604562a7d",
+          "IsTlg": "true",
+          "ProgramCode": "CAPIRateAudit",
+          "defaultCulture": "en-us",
+          "defaultCurrency": "USD",
+          "isEnabled": "true",
+          "platformApiKey": "",
+          "platformUserToken": "",
+          "branch": "711"
+        }
+      ]
+    }
+  ]
+}
