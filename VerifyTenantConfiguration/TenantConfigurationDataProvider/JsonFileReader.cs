@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace VerifyTenantConfiguration.PosConfigurationDataProvider
+namespace VerifyTenantConfiguration.TenantConfigurationDataProvider
 {
     public class JsonFileReader
     {

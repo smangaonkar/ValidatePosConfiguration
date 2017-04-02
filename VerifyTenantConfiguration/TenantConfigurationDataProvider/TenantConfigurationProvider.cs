@@ -3,14 +3,14 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using VerifyTenantConfiguration.Model;
 
-namespace VerifyTenantConfiguration.PosConfigurationDataProvider
+namespace VerifyTenantConfiguration.TenantConfigurationDataProvider
 {
-    public static class PosConfigurationProvider
+    public static class TenantConfigurationProvider
     {
         public static TenantConfiguration GetProdPosConfiguration()
         {
             var json =
-                new JsonFileReader().GetResourceTextFile("VerifyTenantConfiguration.PosConfigurationDataProvider.ProposedJson.ProdPosConfiguration.json");
+                new JsonFileReader().GetResourceTextFile("VerifyTenantConfiguration.TenantConfigurationDataProvider.ProposedJson.ProdTenantConfiguration.json");
             try
             {
                 var json1 = JsonConvert.DeserializeObject<TenantConfiguration>(json,

@@ -1,7 +1,7 @@
 ﻿using System.Configuration;
 using VerifyTenantConfiguration.ExcelSheetDataProvider;
-using VerifyTenantConfiguration.PosConfigurationDataProvider;
-using VerifyTenantConfiguration.PosConfigurationValidator;
+using VerifyTenantConfiguration.TenantConfigurationDataProvider;
+using VerifyTenantConfiguration.TenantConfigurationValidator;
 
 namespace VerifyTenantConfiguration
 {
@@ -12,7 +12,7 @@ namespace VerifyTenantConfiguration
             var excelSheetPath = GetExcelSheetPath();
             var prodTenantIdsProvider = new TenantIdProvider(excelSheetPath);
             var excelSheettenantIds = prodTenantIdsProvider.GetPRodTenantIds();
-            var proposedPosConfiguration = PosConfigurationProvider.GetProdPosConfiguration();
+            var proposedPosConfiguration = TenantConfigurationProvider.GetProdPosConfiguration();
 
             ProposedJsonValidator.ValidatePosConfiguration(excelSheettenantIds, proposedPosConfiguration);
         }

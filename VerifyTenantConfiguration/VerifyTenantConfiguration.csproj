@@ -130,9 +130,9 @@
     <Compile Include="Model\Client.cs" />
     <Compile Include="Model\KenobiTenant.cs" />
     <Compile Include="Model\TenantConfiguration.cs" />
-    <Compile Include="PosConfigurationDataProvider\JsonFileReader.cs" />
-    <Compile Include="PosConfigurationDataProvider\PosConfigurationProvider.cs" />
-    <Compile Include="PosConfigurationValidator\ProposedJsonValidator.cs" />
+    <Compile Include="TenantConfigurationDataProvider\JsonFileReader.cs" />
+    <Compile Include="TenantConfigurationDataProvider\TenantConfigurationProvider.cs" />
+    <Compile Include="TenantConfigurationValidator\ProposedJsonValidator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -143,7 +143,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>ErrorMessages.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="PosConfigurationDataProvider\ProposedJson\ProdPosConfiguration.json">
+    <EmbeddedResource Include="TenantConfigurationDataProvider\ProposedJson\ProdTenantConfiguration.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>

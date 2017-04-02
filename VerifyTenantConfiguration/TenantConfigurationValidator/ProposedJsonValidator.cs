@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using VerifyTenantConfiguration.Model;
 
-namespace VerifyTenantConfiguration.PosConfigurationValidator
+namespace VerifyTenantConfiguration.TenantConfigurationValidator
 {
     public static class ProposedJsonValidator
     {
