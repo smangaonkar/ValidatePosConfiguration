@@ -91,7 +91,7 @@ namespace VerifyTenantConfiguration.ErrorMessages {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Proposed PosConfiguration is Invalid Json Format.
+        ///   Looks up a localized string similar to Proposed TenantConfiguration is Invalid Json Format.
         /// </summary>
         internal static string InvalidJsonFormat {
             get {
@@ -140,7 +140,7 @@ namespace VerifyTenantConfiguration.ErrorMessages {
         
         /// <summary>
         ///   Looks up a localized string similar to 
-        ///PosConfiguration validation is successful..
+        ///TenantConfiguration validation is successful..
         /// </summary>
         internal static string ValidationSuccessful {
             get {

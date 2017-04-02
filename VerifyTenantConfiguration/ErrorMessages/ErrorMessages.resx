@@ -146,9 +146,9 @@ Do not Promote this Json to Production.</value>
   </data>
   <data name="ValidationSuccessful" xml:space="preserve">
     <value>
-PosConfiguration validation is successful.</value>
+TenantConfiguration validation is successful.</value>
   </data>
   <data name="InvalidJsonFormat" xml:space="preserve">
-    <value>Proposed PosConfiguration is Invalid Json Format</value>
+    <value>Proposed TenantConfiguration is Invalid Json Format</value>
   </data>
 </root>
