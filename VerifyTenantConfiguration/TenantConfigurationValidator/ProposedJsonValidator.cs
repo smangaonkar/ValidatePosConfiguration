@@ -7,10 +7,10 @@ namespace VerifyTenantConfiguration.TenantConfigurationValidator
 {
     public static class ProposedJsonValidator
     {
-        public static void ValidatePosConfiguration(List<string> excelSheetTenantIds, TenantConfiguration proposedPosConfiguration)
+        public static void ValidatePosConfiguration(List<string> excelSheetTenantIds, TenantConfiguration proposedTenantConfiguration)
         {
             int count = 0;
-            var kenobiTenants = proposedPosConfiguration.Client.SelectMany(client => client.KenobiTenants).ToList();
+            var kenobiTenants = proposedTenantConfiguration.Client.SelectMany(client => client.KenobiTenants).ToList();
             if (excelSheetTenantIds.Count != kenobiTenants.Count)
             {
                 Console.WriteLine(ErrorMessages.ErrorMessages.TenantIdCountMismatch);

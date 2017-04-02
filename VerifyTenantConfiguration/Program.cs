@@ -12,9 +12,9 @@ namespace VerifyTenantConfiguration
             var excelSheetPath = GetExcelSheetPath();
             var prodTenantIdsProvider = new TenantIdProvider(excelSheetPath);
             var excelSheettenantIds = prodTenantIdsProvider.GetPRodTenantIds();
-            var proposedPosConfiguration = TenantConfigurationProvider.GetProdPosConfiguration();
+            var proposedTenantConfiguration = TenantConfigurationProvider.GetProdPosConfiguration();
 
-            ProposedJsonValidator.ValidatePosConfiguration(excelSheettenantIds, proposedPosConfiguration);
+            ProposedJsonValidator.ValidatePosConfiguration(excelSheettenantIds, proposedTenantConfiguration);
         }
 
         private static string GetExcelSheetPath()
